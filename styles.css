@@ -1,6 +1,6 @@
 :root {
-  --primary: #FD004C;
-  --primary-hover: #d90041;
+  --primary: #EC0048;
+  --primary-hover: #C4003A;
   --primary-light: #fff1f5;
   --bg-color: #ffffff;
   --card-bg: #ffffff;
@@ -79,7 +79,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-md);
-  border: 1px solid rgba(253, 0, 76, 0.15);
+  border: 1px solid rgba(236, 0, 72, 0.15);
 }
 
 .brand-title {
@@ -152,7 +152,7 @@ body {
   align-items: center;
   gap: 8px;
   background: var(--primary-light);
-  border: 1px solid rgba(253, 0, 76, 0.2);
+  border: 1px solid rgba(236, 0, 72, 0.2);
   color: var(--primary);
   padding: 6px 16px;
   border-radius: 30px;
@@ -204,13 +204,13 @@ body {
 .btn-primary {
   background: var(--primary);
   color: #ffffff;
-  box-shadow: 0 4px 14px rgba(253, 0, 76, 0.25);
+  box-shadow: 0 4px 14px rgba(236, 0, 72, 0.25);
 }
 
 .btn-primary:hover {
   background: var(--primary-hover);
   transform: translateY(-1px);
-  box-shadow: 0 6px 18px rgba(253, 0, 76, 0.35);
+  box-shadow: 0 6px 18px rgba(236, 0, 72, 0.35);
 }
 
 .btn-secondary {
@@ -241,7 +241,7 @@ body {
 }
 
 .highlight-section {
-  border-color: rgba(253, 0, 76, 0.25);
+  border-color: rgba(236, 0, 72, 0.25);
   background: linear-gradient(180deg, #fff7f9 0%, #ffffff 100%);
 }
 
@@ -322,7 +322,7 @@ body {
 
 .info-card:hover {
   background: #ffffff;
-  border-color: rgba(253, 0, 76, 0.3);
+  border-color: rgba(236, 0, 72, 0.3);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
